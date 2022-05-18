@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div .row{
+    --bs-gutter-x: 0px;
+    --bs-gutter-y: 0px;
+}
