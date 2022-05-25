@@ -1,5 +1,4 @@
-import './header.css';
-
+import './header.css'
 
 
 
@@ -39,7 +38,7 @@ const Header = () => {
             </div>
 
             <div className="logo">
-                <p><a href="index.html"> _AE.</a></p>
+                <p><a href="/"> _AE.</a></p>
             </div>
 
             <nav id="header-menu">
@@ -50,10 +49,10 @@ const Header = () => {
                     </div>
                 </div>
 
-                <a href="index.html">Home</a>
-                <a href="explore.html">Explore</a>
-                <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
+                <a href="/">Home</a>
+                <a href="/explore">Explore</a>
+                <a href="/about">About</a>
+                <a href="/contact">Contact</a>
             </nav>
         </header>
     )

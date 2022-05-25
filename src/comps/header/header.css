@@ -1,3 +1,7 @@
+header {
+    border-bottom: 2px solid #efefef;
+}
+
 /* menu button */
 .nav-menu {
     top: 0;
@@ -8,7 +12,7 @@
 }
 
 .nav-menu .button {
-    margin: 15px 15px;
+    margin: 22px 15px;
 }
 
 .nav-menu .bar {
@@ -53,11 +57,10 @@
 nav {
     top: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: none;
     position: absolute;
     background-color: #fdb837;
-    transition: all 5s ease-in;
 }
 
 
@@ -77,6 +80,7 @@ nav .button {
     width: 30px;
     height: 2px;
     transform: rotate(45deg);
+    transition: all 5s ease-in;
     background-color: #ffffff;
 }
 
@@ -85,6 +89,7 @@ nav .button {
     width: 30px;
     height: 2px;
     transform: rotate(-45deg);
+    transition: all 5s ease-in;
     background-color: #ffffff;
 }
 
@@ -98,4 +103,46 @@ nav a {
     text-align: center;
     font-weight: bold;
     text-decoration: none;
+}
+
+nav a:hover {
+    color: #efefef;
+}
+
+@media screen and (min-width: 760px) {
+
+    .nav-menu {
+        display: none;
+    } 
+
+    nav {
+        top: 0;
+        right: 0;
+        width: 70%;
+        height: 60px;
+        display: block;
+        position: absolute;
+        background: none;
+    }
+
+
+    nav .close-btn {
+        display: none;
+    }
+
+    nav a {
+        width: 15%;
+        color: #fdb837;
+        font-size: 18px;
+        padding: 20px;
+        display: inline-block;
+        text-align: center;
+        font-weight: normal;
+        text-decoration: none;
+        transition: all 5s ease-in;
+    }
+
+    nav a:hover {
+        font-weight: bold;
+    }
 }

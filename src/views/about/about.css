@@ -1,0 +1,106 @@
+.about{
+    margin: 50px 0px;
+}
+
+.about-image {
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 10px solid #fdb837;
+}
+
+.about-container h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.about-container .resume {
+    width: 300px;
+    display: block;
+    color: #ffffff;
+    padding: 5px; 
+    font-size: 20px;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #fdb837;
+}
+
+.myskills {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.myskills ul {
+    margin: 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.pro-skill {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.pro-skill ul{
+    margin: 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.skills {
+    width: 100%;
+}
+
+.skills ul {
+    list-style-type: none;
+    margin: auto;
+}
+
+
+.skills ul li .skills-bar {
+    width: 90%;
+    padding: 20px 0px;
+}
+
+.skills ul li .skills-bar label {
+    font-size: 20px;
+    font-weight: 70px;
+}
+
+.skills ul li .skills-bar .bar {
+    width: 100%;
+    height: 5px;
+}
+
+.get-us {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.get-us .title{
+    margin: 10px 0px;
+    color: #fdb837;
+    text-align: left;
+    font-weight: bold;
+}
+
+.get-us p{
+    margin: 0px 0px 0px;
+}
+
+.get-us .addresses {
+    margin: 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    list-style-type: none;
+}
+
+.get-us .addresses li {
+    margin: 10px 0px;
+}

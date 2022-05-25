@@ -1,0 +1,18 @@
+/* platform desig */
+.platform {
+    margin: 0px auto;
+    text-align: center;
+
+}
+
+.line-circle{
+    width: 50px;
+    margin: 30px auto;
+    display: inline-block;
+}
+
+.platform .line-circle a {
+    font-size: 18px;
+    text-align: center;
+    color: #fdb837;
+}

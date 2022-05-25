@@ -1,8 +1,14 @@
+
+div .row{
+    --bs-gutter-x: 0px;
+    --bs-gutter-y: 0px;
+}
+
 /* index image */
 .index-image {
     width: 200px;
     height: 200px;
-    margin: 20px auto;
+    margin: 100px auto;
 }
 
 .index-image img {
@@ -12,11 +18,12 @@
 
 /* index about me */
 .about-me {
-    width: 250px;
-    margin: 0px auto;
+    width: 90%;
+    margin-top: 100px;
 }
 
-.about-me h2{
+.about-me h1{
+
     color: #fdb837;
 }
 
@@ -26,11 +33,12 @@
 
 /* resume and explore button */
 .resume-explore {
-    text-align: center;
+    text-align: left;
 }
 
 .resume-explore .resume {
-    width: 150px;
+    width: 130px;
+    margin-right: 5px;
     border-radius: 10px;
     background-color: #fdb837;
     border: 1px solid #fdb837;
@@ -55,4 +63,24 @@
     text-align: center;
     color: #fdb837;
     text-decoration: none;
+}
+
+@media screen and (max-width: 760px) {
+    /* index image */
+    .index-image {
+        width: 200px;
+        height: 170px;
+        margin: 10px auto;
+    }
+
+    .about-me {
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .resume-explore {
+        text-align: center;
+    }
+    
+    
 }

@@ -1,0 +1,21 @@
+.contact {
+    margin: 20px auto;
+}
+
+.contact-form h1{
+    color: #fdb837;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-form input, .contact-form textarea {
+    margin-bottom: 20px;
+    outline-style: none;
+}
+
+.contact-btn .conBtn{
+    color: #ffffff;
+    font-weight: bold;
+    outline-style: none;
+    background-color: #fdb837;
+}
