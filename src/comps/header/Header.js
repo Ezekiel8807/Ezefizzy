@@ -51,6 +51,7 @@ const Header = () => {
 
                 <a href="/">Home</a>
                 <a href="/explore">Explore</a>
+                <a href="/articles">Articles</a>
                 <a href="/about">About</a>
                 <a href="/contact">Contact</a>
             </nav>

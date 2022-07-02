@@ -1,0 +1,16 @@
+.subhead {
+    padding: 50px;
+    text-align: center;
+}
+
+.subhead h1{
+    text-align: center;
+    margin: 0px 0px 0px;
+}
+
+.subhead .line {
+    width: 100px;
+    height: 5px;
+    margin: 0px auto;
+    background-color: #fdb837;
+}

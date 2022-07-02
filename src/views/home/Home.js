@@ -17,14 +17,14 @@ const Home = () => {
                         <div className='about_me'>
                             <div className="about-me">
                                 <h1>Hey, <br/> i'm Ayebidun Ezekiel.</h1>
-                                <p>A fullstack web developer with over 5years of experience, very 
-                                    passionate about it and open to learn new stuff.
+                                <p>fullstack web developer and technical writer, very 
+                                    passionate about it and open for collaboration.
                                 </p>
                             </div>
 
                             <div className="resume-explore">
                                 <button className="resume"><a href="asset/doc/" download>Resume</a></button>
-                                <button className="explore"><a href="explore.html">Explore</a></button>
+                                <button className="explore"><a href="/explore">Explore</a></button>
                             </div>
                         </div>
                     </div>

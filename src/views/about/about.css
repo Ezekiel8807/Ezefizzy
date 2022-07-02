@@ -49,6 +49,11 @@
     margin: 0px auto;
 }
 
+.header-title h5 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .pro-skill ul{
     margin: 0px 0px 0px;
     padding: 0px 0px 0px 0px;
@@ -85,6 +90,7 @@
 }
 
 .get-us .title{
+    font-size: 30px;
     margin: 10px 0px;
     color: #fdb837;
     text-align: left;
@@ -92,15 +98,17 @@
 }
 
 .get-us p{
+    font-size: 20px;
     margin: 0px 0px 0px;
 }
 
 .get-us .addresses {
     margin: 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    padding: 10px 10px 0px 0px;
     list-style-type: none;
 }
 
 .get-us .addresses li {
+    font-size: 20px;
     margin: 10px 0px;
 }
