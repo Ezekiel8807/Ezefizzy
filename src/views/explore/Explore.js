@@ -4,19 +4,17 @@ import './explore.css'
 
 const Explore = () => {
 
-    const pf = process.env.REACT_APP_PUBLIC_FOLDER
-
     return (
         <div className='explore'>
             <Subhead subheading={"Recent Works"} />
 
             <div className='row'>
                 <div className='col-lg-6 col-md-6 col-sm-12'>
-                    <Project proTitle={"Portfolio"} proImg={ pf + 'img/profile.PNG'} proDisc={''}  />
+                    <Project proTitle={"Portfolio"} proImg={'asset/img/profile.PNG'} proDisc={''}  />
                 </div>
 
                 <div className='col-lg-6 col-md-6 col-sm-12'>
-                    <Project proTitle={"Todo app"} proImg={ pf + 'img/todo.png'} proDisc={''}  />
+                    <Project proTitle={"Todo app"} proImg={'asset/img/todo.png'} proDisc={''}  />
                 </div>
 
                 <div className='col-lg-6 col-md-6 col-sm-12'>
