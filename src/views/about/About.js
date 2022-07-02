@@ -1,5 +1,4 @@
 import './about.css'
-import { Link } from "react-router-dom";
 import Handles from '../../comps/handles/Handles';
 
 const About = () => {
@@ -18,7 +17,7 @@ const About = () => {
 
                     <h1>Ayebidun Ezekiel</h1>
 
-                    <Link className='resume' to="/">Resume</Link><br/>
+                    <a className='resume' href="asset/doc/resume.pdf" download>Resume</a><br/>
                 </div>
 
                 <div className='col-md-6'>

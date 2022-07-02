@@ -14,7 +14,7 @@ const Explore = () => {
                 </div>
 
                 <div className='col-lg-6 col-md-6 col-sm-12'>
-                    <Project proTitle={"Todo app"} proImg={'asset/img/todo.png'} proDisc={''}  />
+                    <Project proTitle={"Todo app"} proImg={'asset/img/todo.PNG'} proDisc={''}  />
                 </div>
 
                 <div className='col-lg-6 col-md-6 col-sm-12'>

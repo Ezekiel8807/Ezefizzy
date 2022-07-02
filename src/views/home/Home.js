@@ -2,6 +2,7 @@ import './home.css'
 import Handles from '../../comps/handles/Handles'
 
 const Home = () => {
+
     return (
         <div className='home'>
 
@@ -23,7 +24,7 @@ const Home = () => {
                             </div>
 
                             <div className="resume-explore">
-                                <button className="resume"><a href="asset/doc/" download>Resume</a></button>
+                                <button className="resume"><a href="asset/doc/resume.pdf" download>Resume</a></button>
                                 <button className="explore"><a href="/explore">Explore</a></button>
                             </div>
                         </div>
