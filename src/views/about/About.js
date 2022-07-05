@@ -1,5 +1,6 @@
 import './about.css'
 import Handles from '../../comps/handles/Handles';
+import { BsGeoAlt, BsBank2, BsHeadphones } from "react-icons/bs"
 
 const About = () => {
     const mystyle = {
@@ -84,7 +85,7 @@ const About = () => {
                                                             
                                                     <li>
                                                         <div className="skills-bar">
-                                                            <label>PYTHON</label><br/>
+                                                            <label>JAVA</label><br/>
                                                             <progress className="bar" value="50" max="100"/>
                                                         </div>
                                                     </li>
@@ -109,18 +110,18 @@ const About = () => {
                 <ul className="addresses">
 
                     <li>
-                        <i style={ mystyle } className="fa-solid fa-location-dot"></i>
-                        <span> 3, Olatunja Street, Ijako bus stop, Sano Ota, Ogun State, Nigeria.</span>
+                        <BsGeoAlt style={ mystyle } />
+                        <small> 3, Olatunja Street, Ijako bus stop, Sano Ota, Ogun State, Nigeria.</small>
                     </li>
                     
                     <li>
-                        <i style={ mystyle } className="fa-solid fa-graduation-cap"></i>
-                        <span> Olusegun Agagun University Of Science And Technology, Okitipupa, Ondo State, Nigeria.</span>
+                        <BsBank2 style={ mystyle } />
+                        <small> Olusegun Agagun University Of Science And Technology, Okitipupa, Ondo State, Nigeria.</small>
                     </li>
                     
                     <li>
-                        <i style={ mystyle } className="fa-solid fa-phone"></i>
-                        <span> +2348100196214 </span>
+                        <BsHeadphones style={ mystyle } />
+                        <small> +2348100196214 </small>
                     </li>
                     
                 </ul>

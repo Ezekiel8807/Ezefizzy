@@ -50,6 +50,7 @@ header {
     font-size: 2em;
     display: block;
     color: #fdb837;
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -75,6 +76,21 @@ nav .button {
     right: 0;
 }
 
+nav a {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+   font-weight: bold;
+   color: #ffffff;
+}
+
+
 .close-bar:first-child {
     content: "";
     width: 30px;
@@ -93,21 +109,6 @@ nav .button {
     background-color: #ffffff;
 }
 
-
-
-nav a {
-    color: #ffffff;
-    font-size: 20px;
-    padding: 20px;
-    display: block;
-    text-align: center;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #efefef;
-}
 
 @media screen and (min-width: 760px) {
 
@@ -139,10 +140,10 @@ nav a:hover {
         text-align: center;
         font-weight: normal;
         text-decoration: none;
-        transition: all 5s ease-in;
     }
 
     nav a:hover {
-        font-weight: bolder;
+        font-weight: bold;
+        color: #fdb837;
     }
 }

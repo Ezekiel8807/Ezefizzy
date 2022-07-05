@@ -1,6 +1,7 @@
 import './project.css'
+import {BsGithub, BsGlobe } from "react-icons/bs"
 
-const Project = ({ proTitle, proImg, proDisc }) => {
+const Project = ({ proTitle, proImg, proDisc, proGit, proWeb }) => {
 
     return(
         <div className='project'>
@@ -10,11 +11,14 @@ const Project = ({ proTitle, proImg, proDisc }) => {
                 <img src={ proImg } alt="pro-img" />
             </div>
 
+            <h3 className='disc-head'>About</h3>
             <p className='pro-disc'>{ proDisc }</p>
 
-            <div className='pro-foot'>
-
-            </div>
+            
+            <ul className='pro-foot'>
+                <li className='githubLink'><a href={ proGit }><BsGithub className='icon' /> Github repo</a></li>
+                <li className='webLink'><a href={ proWeb }><BsGlobe className='icon' /> Live website </a></li>
+            </ul>
         </div>
     )
 }

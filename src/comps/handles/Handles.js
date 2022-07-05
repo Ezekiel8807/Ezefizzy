@@ -1,4 +1,5 @@
 import './handles.css'
+import { BsFacebook, BsTwitter, BsGithub, BsLinkedin, BsEnvelopeFill } from "react-icons/bs"
 
 const Handles = () => {
     return(
@@ -6,32 +7,32 @@ const Handles = () => {
 
             <div className="line-circle">
                 <a href="https://github.com/Ezekiel8807" target='_blank' rel="noreferrer">
-                    <i className="fab fa-github"></i>
+                    <BsGithub />
                 </a>
             </div>
 
             <div className="line-circle">
                 <a href="https://www.linkedin.com/in/Ezekiel8807" target='_blank' rel="noreferrer">
-                <i className="fa-brands fa-linkedin"></i>
+                <BsLinkedin />
                 </a>
             </div>
         
             
             <div className="line-circle">
                 <a href="https://www.twitter.com/AyebidunEzekiel" target='_blank' rel="noreferrer">
-                    <i className="fab fa-twitter"></i>
+                    <BsTwitter />
                 </a>
             </div>
             
             <div className="line-circle">
                 <a href="https://www.facebook.com/Ezekiel8807" target='_blank' rel="noreferrer">
-                <i className="fa-brands fa-facebook"></i>
+                <BsFacebook />
                 </a>
             </div>
 
             <div className="line-circle">
-                <a href="mailto:ayeoluwaseyi@gmail.com/subject?contact Ezefizzy" target='_blank' rel="noreferrer">
-                <i className="fa-solid fa-envelope"></i>
+                <a href="mailto:ayeoluwaseyi@gmail.com" target='_blank' rel="noreferrer">
+                <BsEnvelopeFill />
                 </a>
             </div>
 

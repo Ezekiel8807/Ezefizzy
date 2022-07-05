@@ -98,8 +98,8 @@ div .row{
     }
 
     .resume-explore .resume {
-        width: 200px;
-        margin-right: 10px;
+        width: 50%;
+        margin-right: 2%;
         border-radius: 10px;
         background-color: #fdb837;
         border: 1px solid #fdb837;
@@ -114,7 +114,7 @@ div .row{
     }
     
     .resume-explore .explore {
-        width: 100px;
+        width: 28%;
         background: none;
         border-radius: 10px;
         border: 1px solid #fdb837;
