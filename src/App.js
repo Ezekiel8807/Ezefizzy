@@ -3,8 +3,10 @@ import About  from "./views/about/About"
 import Header from './comps/header/Header'
 import Explore from './views/explore/Explore'
 import Contact from './views/contact/Contact'
+import Article from './views/articles/Articles'
+
 import {BrowserRouter, Routes, Route} from  'react-router-dom'
-import Article from './views/article/Article'
+
 
 
 

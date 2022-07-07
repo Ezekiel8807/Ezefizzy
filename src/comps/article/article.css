@@ -1,0 +1,59 @@
+.article {
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 1px #000;
+    transition: all 1s ease;
+}
+
+.article:hover {
+    box-shadow: 1px 1px 3px #fdb837;
+}
+
+.art-img {
+    width: 80%;
+    margin: auto;
+}
+
+.art-img img {
+    width: 100%;
+    height: 100%;
+    margin: 20px auto;
+    box-shadow: 0px 0px 1px #000;
+}
+
+.art-disc-head {
+    width: 80%;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 10px auto;
+}
+
+.art-disc {
+    width: 80%;
+    font-size: 14px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+
+.art-foot {
+    width: 80%;
+    margin: 0px auto;
+    border-top: solid 2px #dddddd;
+}
+
+.art-foot a {
+    padding: 5px;
+    color: #000;
+    display: block;
+    font-size: 14px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.art-foot a .icon {
+    color: #fdb837;
+}
+
+
