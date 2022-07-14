@@ -1,3 +1,4 @@
+import Handles from '../../comps/handles/Handles';
 import Project from '../../comps/project/Project';
 import Subhead from '../../comps/subhead/Subhead';
 import './explore.css'
@@ -29,6 +30,8 @@ const Explore = () => {
                     {/* <Project proTitle={} proImg={} proDisc={} proGit={} proWeb={} /> */}
                 </div>
             </div>
+
+            <Handles />
         </div>
     )
 }
